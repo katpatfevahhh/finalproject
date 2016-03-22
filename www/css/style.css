@@ -1,0 +1,21 @@
+/* Empty. Add your own CSS if you like */
+
+img {
+    width: 95%;
+    margin: auto;
+    padding: 30px;
+    padding-bottom: 150px;
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+h1 {
+	font-family: 'Oleo Script', cursive;
+}
+
+div {
+	padding: 10px;
+}

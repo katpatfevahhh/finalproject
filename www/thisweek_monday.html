@@ -6,7 +6,7 @@
     <title></title>
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/homepagestyle.css" rel="stylesheet">
+    <link href="css/daystyle.css" rel="stylesheet">
 
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
@@ -19,26 +19,34 @@
     <script src="cordova.js"></script>
 
     <!-- your app's js -->
-    <script src="js/app.js"></script>
+    <script src="js/day.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Oleo%20Script%3A700" rel="stylesheet" type="text/css">  
   </head>
   <body ng-app="starter">
 
     <ion-pane>
       <ion-content>
+        
+
+          <div class="bar bar-header bar-dark">
+  <button class="button button-icon icon icon-light ion-ios-arrow-left"></button>
+  <div class="h2 title">MONDAY</div>
+  <button class="button button-icon button-white ion-ios-plus-outline"></button>
+</div>
           
+
+
+
+
+
+
+
+
         <div>
            <a href="index.html"><img style="displayed" src="images/Logo.svg" alt="Weekly"> </a>
-          <a href="lastweek.html"><button class="button button-block button-outline button-positive">
-          LAST WEEK
-          </button></a>
-          <a href="thisweek.html"><button class="button button-block button-positive">
-          THIS WEEK
-          </button></a>
-          <a href="nextweek.html"><button class="button button-block button-outline button-positive">
-          NEXT WEEK
-          </button></a>
+          
         </div>
+
 
       </ion-content>
     </ion-pane>
